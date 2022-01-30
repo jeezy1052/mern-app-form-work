@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  padding: 2rem 0 0 2rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: .7rem;
+
+}
+
+button {
+  background-color: salmon;
+  padding: .3rem 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: white;
+}
